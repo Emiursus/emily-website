@@ -12,18 +12,18 @@
             "projectName": "Checkout Bakery",
             "techSkills": "Checkout Bakery 智慧圖像自助結帳該系統主要使用 Python 開發，並以 Line Bot 作為自助結帳的介面。為了進行麵包圖像辨識，我們使用 LabelImg 標註軟體對三種類型的麵包進行標註，並使用 TensorFlow 的 Keras 來建立與訓練模型。最初，我們嘗試使用 YOLOv3 和 CNN 模型進行麵包圖像辨識，但準確率未達預期，低於 90%。隨後，我們改用了 ResNet 模型，並成功將辨識準確率提升至 92%。在此基礎上，我們進一步優化了資料集篩選，最終訓練出的 ResNet 模型達到 95% 的準確率。",
             "images": [
-              { "src": "/emily-website/images/ai01.jpg", "alt": "Line Bot UI", "isAboveFold": true },
-              { "src": "/emily-website/images/ai02.jpg", "alt": "ResNet", "isAboveFold": false },
-              { "src": "/emily-website/images/ai03.jpg", "alt": "Result", "isAboveFold": false }
+              { "src": "/emily-website/images/ai01.jpg", "alt": "Line Bot UI 介面", "isAboveFold": true },
+              { "src": "/emily-website/images/ai02.jpg", "alt": "模型訓練結果", "isAboveFold": false },
+              { "src": "/emily-website/images/ai03.jpg", "alt": "麵包辨識結果", "isAboveFold": false }
             ]
           },
           {
             "projectName": "DeWay",
             "techSkills": "DeWay電子商務平台主要使用 C# 開發，前端 UI 設計則使用 Bootstrap 進行頁面布局與響應式設計，並透過 jQuery 實現各項功能交互。整體架構上，我們採用了 MVC設計模式，將商業邏輯與表示層進行有效分離，確保各層級職責清晰。資料庫方面，我們選用 MSSQL 作為關聯式資料庫管理系統，並依照資料庫正規化原則進行設計，以提高資料存取效率並維持資料的一致性和完整性。",
             "images": [
-              { "src": "/emily-website/images/deway01.png", "alt": "Image AI 01", "isAboveFold": true },
-              { "src": "/emily-website/images/deway02.png", "alt": "Image AI 02", "isAboveFold": false },
-              { "src": "/emily-website/images/deway03.png", "alt": "Image AI 03", "isAboveFold": false }
+              { "src": "/emily-website/images/deway01.png", "alt": "修改個人頁面", "isAboveFold": true },
+              { "src": "/emily-website/images/deway02.png", "alt": "商品評價頁面", "isAboveFold": false },
+              { "src": "/emily-website/images/deway03.png", "alt": "新增評論視窗", "isAboveFold": false }
             ]
           }
         ]
