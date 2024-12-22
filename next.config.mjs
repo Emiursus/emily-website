@@ -5,12 +5,7 @@ const nextConfig = {
     output:"export",
     reactStrictMode:true,
     images:{
-        remotePatterns: [
-            {
-                protocol: "https",
-                hostname: "i.ibb.co",
-            },
-        ],
+        unoptimized: true,
     },
 };
 
